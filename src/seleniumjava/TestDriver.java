@@ -18,9 +18,6 @@ public class TestDriver {
         
         WebElement btn_search = driver.findElement(By.id("ybar-search"));
         btn_search.click();    
-        
-        driver.close();
-
 	}
 
 }
